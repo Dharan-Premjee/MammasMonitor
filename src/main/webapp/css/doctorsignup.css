@@ -1,0 +1,74 @@
+/* Background */
+body {
+    background: url('https://res.cloudinary.com/dtw0fbbnh/image/upload/v1741070566/young-handsome-physician-medical-robe-with-stethoscope_jzqhlu.jpg') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Centering the signup box */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Signup Box */
+.signup-box {
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb); /* Light Blue Gradient */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Heading */
+h2 {
+    color: #1565c0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Signup Button */
+.signup-btn {
+    background: #1976d2;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Cancel Button */
+.cancel-btn {
+    background: lightcoral;
+    color: white;
+    margin-top: 10px;
+}
+
+button:hover {
+    opacity: 0.8;
+}

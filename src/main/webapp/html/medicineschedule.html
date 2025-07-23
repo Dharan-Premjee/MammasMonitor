@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../css/medicineschedule.css">
+    <script src="../js/medicineschedule.js" defer></script>
+</head>
+<body>
+    <div class="container">
+     <header>
+            <h1>Medicine Scheduler</h1>
+            <p>Automatically generated schedule based on doctor's prescription</p>
+        </header>
+        <section class="schedule">
+        <h2>Today's Medication Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Medicine Name</th>
+                    <th>Dosage</th>
+                    <th>Time</th>
+                    <th>Instructions</th>
+                </tr>
+            </thead>
+            <tbody id="medicineTableBody">
+                <tr><td colspan="4">Loading prescribed medicines...</td></tr>
+            </tbody>
+        </table>
+        <footer>
+            <p>&copy; 2025 Mamma’s Monitor. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>

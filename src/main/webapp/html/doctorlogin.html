@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Login</title>
+    <link rel="stylesheet" href="../css/doctorlogin.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login as Doctor</h2>
+          	 <form action="/MammasMonitor/doctorlogin" method="post">
+  			  <input type="email" name="email" placeholder="✉️ Enter Email" required>
+	 			<input type="password" name="password" placeholder="🔒 Enter Password" required>
+			    <button type="submit" class="login-btn">Login</button>
+    			<button type="button" class="cancel-btn" onclick="window.location.href='index.html'">Cancel</button>
+</form>
+          	
+        </div>
+    </div>
+    <script src="../js/doctorlogin.js"></script>
+</body>
+</html>

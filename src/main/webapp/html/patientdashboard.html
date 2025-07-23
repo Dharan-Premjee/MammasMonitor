@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Dashboard</title>
+    
+    <!-- Correct Path for CSS in Eclipse -->
+    <link rel="stylesheet" href="../css/patientdashboard.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <h2>Welcome😇</h2>
+        <div class="button-container">
+            <a href="../html/dietplan.html" class="dashboard-btn diet">View My Diet Plan</a>
+            <a href="../html/medicineschedule.html" class="dashboard-btn medicine">View My Medicine Schedule</a>
+            <a href="../logmedicine.html" class="dashboard-btn log-medicine">Log Medicine Intake</a>
+            <a href="../html/yoga.html" class="dashboard-btn yoga">Yoga for Pregnancy</a>
+            <a href="../html/appointment.html" class="dashboard-btn appointment">Book Doctor Appointment</a>
+            <a href="../html/emergency.html" class="dashboard-btn emergency">Emergency Alerts</a>
+        </div>
+    </div>
+</body>
+</html>
+
+<script>
+    const patientEmail = sessionStorage.getItem("patientEmail") || localStorage.getItem("patientEmail");
+    if (patientEmail) {
+        document.querySelector("header h1").innerHTML += ` - Welcome, ${patientEmail}`;
+    }
+</script>

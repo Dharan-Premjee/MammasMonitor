@@ -1,0 +1,109 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #fdecef; /* Soft pink background */
+    background-image: url('https://res.cloudinary.com/dtw0fbbnh/image/upload/v1738846927/LOGIN_PAGE_BACKGROUND_jn7wrr.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95); /* Light white with slight transparency */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    max-width: 380px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #6d2e46; /* Deep pinkish-purple */
+}
+
+p {
+    font-size: 14px;
+    color: #8b3a62; /* Slightly darker pink */
+    margin-bottom: 15px;
+}
+
+/* Styled Select Box */
+select {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #ffb6c1; /* Soft pink border */
+    border-radius: 8px;
+    background: #ffe4e9; /* Light pastel pink */
+    color: #6d2e46; /* Deep pinkish-purple */
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    appearance: none; /* Remove default arrow */
+    font-weight: 600;
+}
+
+/* Custom Dropdown Arrow */
+select {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="rgba(109,46,70,0.8)"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+}
+
+/* Hover & Focus Effects */
+select:hover {
+    background: #ffd9e1; /* Slightly darker pastel pink */
+}
+
+select:focus {
+    border-color: #ff94a2; /* Bright pink */
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Colors */
+.btn-login {
+    background: #f48fb1; /* Soft pink */
+}
+
+.btn-login:hover {
+    background: #f06292; /* Slightly darker pink */
+}
+
+.btn-signup {
+    background: #ffb6c1; /* Light pastel pink */
+}
+
+.btn-signup:hover {
+    background: #ff94a2; /* Slightly darker pink */
+}

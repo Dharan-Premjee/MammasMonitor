@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🩺 View My Patients</title>
+    <link rel="stylesheet" href="../css/viewpatients.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🩺 View My Patients</h1>
+        <h2>Patient List</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Patient ID</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Pregnancy Month</th>
+                </tr>
+            </thead>
+            <tbody id="patientsTable">
+                <tr>
+                    <td colspan="4" class="error-message">Failed to load patients.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <script src="../js/viewpatients.js"></script>
+</body>
+</html>

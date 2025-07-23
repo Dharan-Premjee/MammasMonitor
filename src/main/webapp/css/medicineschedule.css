@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://res.cloudinary.com/dtw0fbbnh/image/upload/v1742655236/medicine-capsules-global-health-with-geometric-pattern-digital-remix_v4f58q.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    margin: 40px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e0f0ff;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

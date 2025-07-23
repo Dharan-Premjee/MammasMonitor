@@ -1,0 +1,60 @@
+/* Background Styling */
+body { 
+    font-family: Arial, sans-serif; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    background-image: url('https://res.cloudinary.com/dtw0fbbnh/image/upload/v1739286178/Patient_background_kfrwud.png'); 
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+/* Dashboard Container */
+.dashboard-container { 
+    background: rgba(255, 255, 255, 0.95); 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0px 0px 15px rgba(0, 0.5, 0.2, 0.7); 
+    text-align: center; 
+    width: 350px; 
+}
+
+/* Heading */
+h2 { 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+/* Buttons */
+.button-container { 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.dashboard-btn { 
+    width: 100%; 
+    padding: 12px; 
+    margin: 8px 0; 
+    border: none; 
+    border-radius: 9px; 
+    font-size: 16px; 
+    text-align: center; 
+    text-decoration: none; 
+    display: block; 
+    color: white; 
+}
+
+/* Button Colors */
+.patients { background-color: #3498db; } /* Blue */
+.diet { background-color: #f39c12; } /* Orange */
+.prescriptions { background-color: #8e44ad; } /* Purple */
+.med { background-color: #a569bd; } /* Lighter Purple */
+.yoga { background-color: #2ecc71; } /* Green */
+.appointments { background-color: #e74c3c; } /* Red */
+
+/* Hover Effect */
+.dashboard-btn:hover { 
+    opacity: 0.8; 
+}
